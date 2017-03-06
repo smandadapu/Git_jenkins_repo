@@ -50,7 +50,7 @@
 	<target name="war" depends="compile" description="generate the distribution war" >
 		<jar jarfile="${war}${path}.war" basedir="${build}"/>
 	</target>
-here you can start
+
 	<target name="deploy" description="Install web application" depends="undeploy">
 		<deploy url="${url}" username="${username}" password="${password}" path="${path}" war="file:${war}${path}.war"/>
 	</target>
