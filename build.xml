@@ -13,7 +13,7 @@
 	<property name="username" value="${manager.username}"/>
 	<property name="password" value="${manager.password}"/>
 
-	<!-- Configure the custom Ant tasks for the Manager application -->
+	<!-- Configure the custom Ant tasks for the Manager application
 	<taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask"/>
 	<taskdef name="list" classname="org.apache.catalina.ant.ListTask"/>
 	<taskdef name="reload" classname="org.apache.catalina.ant.ReloadTask"/>
@@ -21,7 +21,7 @@
 	<taskdef name="resources" classname="org.apache.catalina.ant.ResourcesTask"/>
 	<taskdef name="start" classname="org.apache.catalina.ant.StartTask"/>
 	<taskdef name="stop" classname="org.apache.catalina.ant.StopTask"/>
-	<taskdef name="undeploy" classname="org.apache.catalina.ant.UndeployTask"/>
+	<taskdef name="undeploy" classname="org.apache.catalina.ant.UndeployTask"/-->
 
 	<path id="libpath">
 		<fileset dir="${lib}">
